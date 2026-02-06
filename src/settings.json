@@ -1,0 +1,55 @@
+{
+  "apiSettings": {
+    "creator": "Rianshope",
+    "apikey": "rianshope"
+  },
+  "categories": [
+    {
+      "name": "Orderkuota Gateway",
+      "items": [
+        {
+          "name": "Create Payment",
+          "desc": "Create qris payment", 
+          "path": "/orderkuota/createpayment?apikey=&amount=&codeqr=", 
+          "innerDesc": "Buy apikey >> wa.me/6285796965389"
+        },
+        {
+          "name": "Cek Status",
+          "desc": "Cek status payment", 
+          "path": "/orderkuota/cekstatus?apikey=&merchant=&keyorkut=", 
+          "innerDesc": "Buy apikey >> wa.me/6285796965389"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "items": [
+        {
+          "name": "asistenai",
+          "desc": "rianai chat",
+          "path": "/ai/rianai?text="
+        }
+      ]
+    },
+    {
+      "name": "Anime",
+      "items": [
+        {
+          "name": "Nekopoi Search",
+          "desc": "Cari video nekopoi berdasarkan keyword",
+          "path": "/src/nekopoi?query="
+        },
+        {
+          "name": "Anime Search",
+          "desc": "Cari berbagai macam video anime",
+          "path": "/src/animeindonesia/detail?query="
+        },
+        {
+          "name": "Anime",
+          "desc": "Cari berbagai macam video anime",
+          "path": "/src/animeIndonesia/detail?url="
+        }
+      ]
+    }
+  ]
+}
